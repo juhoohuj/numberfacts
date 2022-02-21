@@ -1,3 +1,4 @@
+//Juho Ahonen
 import './App.css';
 import axios from 'axios';
 import { useEffect } from 'react';
@@ -19,7 +20,7 @@ function App() {
         alert(error);
       })
   }, [])
-  
+
   function newFact(e){
     e.preventDefault();
       const chosenNumberURL = "http://numbersapi.com/" + number + "/" + type + "?json"
